@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Unni;
+  src: url(./font/NunitoSans_10pt-Regular.ttf);
+}
+@font-face {
+  font-family: Geome;
+  src: url('./font/URWGeometricExtraBold.otf');
+}
+@font-face {
+  font-family: Unni-bold;
+  src: url('./font/NunitoSans_10pt-ExtraBold.ttf');
+}

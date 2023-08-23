@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../logo/Logo_Ananas.svg">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../font.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./sale.css">
+    <link rel="stylesheet" href="../base.css">
+    <link rel="stylesheet" href="../responsive/responsiveSale.css">
+    <title>Sản Phẩm</title>
+  </head>
+
+  <body>
+    <div id="ananas">
+      <header class="header">
+        <div class="header-logo">
+          <a href="../index.html">
+            <img src="../logo/Logo_Ananas.svg" alt="">
+          </a>
+        </div>
+        <ul class="header-list">
+          <li class="header-list_item">
+            <a href="">
+              <img src="../img/icon-search.png" alt="">
+            </a>
+          </li>
+          <li class="header-list_item">
+            <a href="../loveList/demo.html">
+              <img src="../logo/icon-tra_cuu.svg" alt="">
+            </a>
+          </li>
+          <li class="header-list_item">
+            <a href="../shop/shop.html">
+              <img src="../img/icon-shop.png" alt="">
+            </a>
+          </li>
+        </ul>
+        <div class="icon-bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="header-menu">
+          <li class="header-item">
+            <a href="../product/product.html" class="click-product_show">
+              SẢN PHẨM <img class="icon-arrow" src="../logo/down-arrow.svg" alt="">
+              <i class='bx bx-chevron-right'></i>
+            </a>
+            <div class="header-menu_hover">
+              <ul class="container">
+                <li><a href="../product/product.html"> <img src="../img/header-img-1.jpg" alt=""> <span>Cho
+                      Nam</span></a></li>
+                <li><a href="../product/product.html"> <img src="../img/header-img-2.jpg" alt=""> <span>Cho
+                      Nữ</span></a></li>
+                <li><a href="#"> <img src="../img/header-img-3.jpg" alt=""> <span>OUTLET SALE</span></a>
+                </li>
+                <li><a href="../product/product.html"> <img src="../img/header-img-4.jpg" alt=""> <span>THỜI TRANG $ PHỤ
+                      KIỆN</span></a></li>
+              </ul>
+              <a href="" class="header-desc">Mọi người gọi thường gọi chúng tôi là <span>Dứa</span> !</a>
+            </div>
+            <!-- product -->
+            <div class="click-product">
+              <div class="header-item click-product_item">
+                <a href="#" class="click-product_show">
+                  <i class='bx bx-chevron-left'></i>
+                  SẢN PHẨM <img class="icon-arrow" src="../logo/down-arrow.svg" alt="">
+                </a>
+              </div>
+              <div class="nav-menu">
+                <div class="nav-menu_item">
+                  <a href="../product/product.html" style="font-weight: 500;">
+                    CHO NAM</a>
+                </div>
+                <div class="nav-menu_item">
+                  <a href="../product/product.html" style="font-weight: 500;">
+                    CHO NỮ</a>
+                </div>
+                <div class="nav-menu_item">
+                  <a href="#" style="font-weight: 500;">
+                    OUTLET SALE</a>
+                </div>
+                <div class="nav-menu_item">
+                  <a href="../product/product.html" style="font-weight: 500;">
+                    THỜI TRANG & PHỤ KIỆN</a>
+                </div>
+              </div>
+              <div class="nav-menu_about"><a href="" class="nav-menu_desc">Mọi người gọi thường gọi chúng
+                  tôi
+                  là <span>Dứa</span> !</a>
+              </div>
+            </div>
+            <div class="header-divider"></div>
+          </li>
+          <li class="header-item">
+            <a href="../saleoff/sale.html">
+              SALE OFF
+              <i class='bx bx-chevron-right'></i>
+            </a>
+            <div class="header-divider"></div>
+          </li>
+          <li class="header-item">
+            <a href="../descover/index.html" style="border: none;">
+              <p class="none-pc">DiscoverYOU</p>
+              <img src="../logo/DiscoverYOU.svg" alt="">
+              <i class='bx bx-chevron-right'></i>
+            </a>
+            <div class="header-divider"></div>
+          </li>
+          <div class="nav-menu">
+            <div class="nav-menu_item">
+              <a href="#"><img src="../logo/icon-user.svg" alt="">
+                Đăng Nhập</a>
+            </div>
+            <div class="nav-menu_item">
+              <a href="#"><img src="../logo/icon-heart.svg" alt="">
+                Yêu thích</a>
+            </div>
+            <div class="nav-menu_item">
+              <a href="#"><img src="../logo/icon-map.svg" alt="">
+                Tìm cửa hàng</a>
+            </div>
+            <div class="nav-menu_item">
+              <a href="#"><img src="../logo/icon_tra_cuu_don_hang.svg" alt="">
+                Tra cứu đơn hàng</a>
+            </div>
+
+          </div>
+          <div class="nav-menu_about"><a href="" class="nav-menu_desc">Mọi người gọi thường gọi chúng tôi
+              là <span>Dứa</span> !</a>
+          </div>
+        </ul>
+        <div class="header-search">
+          <form>
+            <div class="header-search_form">
+              <label for="search"><img src="../logo/icon_search.svg" alt=""></label>
+              <input type="text" id="search" placeholder="Tìm kiếm" required>
+            </div>
+          </form>
+          <div class="header-search_user">
+            <a>
+              <img src="../logo/icon-user.svg" alt="">
+              <span>Đăng Nhập</span>
+            </a>
+          </div>
+          <div class="header-search_shop">
+            <a href="../shop/shop.html">
+              <img src="../logo/icon_gio_hang.svg" alt="">
+              <span>Giỏ Hàng</span>
+            </a>
+          </div>
+        </div>
+      </header>
+      <section class="new">
+        <div class="new-content">
+          <div class="new-info">
+          </div>
+        </div>
+      </section>
+      <section class="form">
+        <div class="dis-flex">
+          <form action="#" method="post" class="menu">
+            <div class="menu-left">
+              <img src="../logo/Logo_Ananas.svg" alt="">
+            </div>
+            <div class="menu-right">
+              <img class="close" src="../logo/icon-close.svg" alt="">
+
+              <h2>Đăng Nhập</h2>
+              <div class="input-right">
+                <input type="text" name="user-name" required>
+                <span>Tên Đăng Nhập</span>
+                <i></i>
+              </div>
+              <div class="input-right">
+                <input type="password" name="user-password" class="password" required>
+                <span>Mật Khẩu</span>
+                <img class="check-password" src="../logo/eye-off-svgrepo-com.svg" alt="">
+                <img class="check-password-2" src="../logo/eye-svgrepo-com.svg" alt="">
+                <i></i>
+              </div>
+              <div class="links">
+                <a href="#">Quên Mật Khẩu</a>
+                <a href="#" class="change-form">Đăng ký</a>
+              </div>
+              <button type="submit" value="Đăng Nhâp" class="login">Đăng Nhâp</button>
+            </div>
+          </form>
+          <form action="" method="post" class="form-register">
+            <div class="menu-left">
+              <img src="../logo/Logo_Ananas.svg" alt="">
+            </div>
+            <div class="menu-right menu-right-register">
+              <img class="close" src="../logo/icon-close.svg" alt="">
+              <h2>Đăng Ký</h2>
+              <div class="input-right">
+                <input type="text" name="user-name" required>
+                <span>Tên Đăng Ký</span>
+                <i></i>
+              </div>
+              <div class="input-right">
+                <input type="password" name="user-password" class="password" required>
+                <span>Mật Khẩu</span>
+                <img class="check-password" src="../logo/eye-off-svgrepo-com.svg" alt="">
+                <img class="check-password-2 " src="../logo/eye-svgrepo-com.svg" alt="">
+                <i></i>
+              </div>
+              <div class="input-right">
+                <input type="password" name="user-password" class="password" required>
+                <span>Nhập Mật Khẩu</span>
+                <img class="check-password " src="../logo/eye-off-svgrepo-com.svg" alt="">
+                <img class="check-password-2 " src="../logo/eye-svgrepo-com.svg" alt="">
+                <i></i>
+              </div>
+              <div class="links">
+                <a href="#">Quên Mật Khẩu</a>
+                <a href="#" class="change-form user-2">Đăng Nhập</a>
+              </div>
+              <button type="submit" value="Đăng Ký" class="login">Đăng Ký</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="blur"></section>
+      <section class="saleoff">
+        <div class="container">
+          <div class="banner">
+            <img src="../img/Clearance-Sale-Desktop.jpg" alt="">
+          </div>
+          <div class="item">
+            <div class="thumbnail ">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale-1.jpg">
+                  <img class="ihover" src="../img/sale1.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/abt00011/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/abt00011/">Basic Tee - Ananas Cropped
+                    Symbol</a></h3>
+                <h3 class="color">Bungee Cord</h3>
+                <h3 class="price">150.000 VND <span class="price-real"> 269.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail ">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61053/">
+                  <img class="inormal" src="../img/imgsale2.jpg">
+                  <img class="ihover" src="../img/sale2.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/a61053/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/a61053/">Urbas Lego - Low Top</a></h3>
+                <h3 class="color">Deep Mimosa</h3>
+                <h3 class="price">330.000 VND <span class="price-real">450.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail ">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale3.jpg">
+                  <img class="ihover" src="../img/sale3.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/a61054/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/a61054/">Urbas Bloody - Low Top</a></h3>
+                <h3 class="color">Haute Red</h3>
+                <h3 class="price">440.000 VND<span class="price-real">580.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail ">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale4.jpg">
+                  <img class="ihover" src="../img/sale4.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/a61093/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/a61093/">Urbas Corluray - High Top</a></h3>
+                <h3 class="color">Mouse</h3>
+                <h3 class="price">510.000 VND <span class="price-real">650.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale5.jpg">
+                  <img class="ihover" src="../img/sale5.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/a61092/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/a61092/">Urbas Corluray - High Top</a> </h3>
+                <h3 class="color">Grasses</h3>
+                <h3 class="price">510.000 VND <span class="price-real"> 650.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale6.jpg">
+                  <img class="ihover" src="../img/sale6.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/a61041/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/a61041/">Vintas Saigon 1980s - High Top</a>
+                </h3>
+                <h3 class="color">Dark Denim</h3>
+                <h3 class="price">355.000 VND <span class="price-real"> 495.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale7.jpg">
+                  <img class="ihover" src="../img/sale7.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/a61079/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/a61079/">Basas Mono - High Top</a>
+                </h3>
+                <h3 class="color">All Dark Grey</h3>
+                <h3 class="price">350.000 VND <span class="price-real"> 490.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../../img/sale8.jpg">
+                  <img class="ihover" src="../../img/sale8.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0006/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0006/">Hiphop Graphic Tee - Outline
+                    Typo</a>
+                </h3>
+                <h3 class="color">Black</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 350.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale9.jpg">
+                  <img class="ihover" src="../img/sale9.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0011/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0011/">Hiphop Graphic Tee - Est. '17
+                    Ananas</a>
+                </h3>
+                <h3 class="color">Black</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 350.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale10.jpg">
+                  <img class="ihover" src="../img/sale10.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0012/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0012/">Hiphop Graphic Tee - Est. 17'
+                    Ananas</a>
+                </h3>
+                <h3 class="color">Ermine</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 350.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale11.jpg">
+                  <img class="ihover" src="../img/sale11.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0014/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0014/">Graphic Tee - Most Wanted
+                    Dalton</a>
+                </h3>
+                <h3 class="color">Caviar Black</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 350.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale12.jpg">
+                  <img class="ihover" src="../img/sale12.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0018/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0018/">Graphic Tee - Lucky Luke Typo</a>
+                </h3>
+                <h3 class="color">Chili Pepper</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 350.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale13.jpg">
+                  <img class="ihover" src="../img/sale13.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/a61111/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/a61111/">Vintas Temperate - High Top</a>
+                </h3>
+                <h3 class="color">Dusty Olive</h3>
+                <h3 class="price">610.000 VND <span class="price-real"> 770.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale14.jpg">
+                  <img class="ihover" src="../img/sale14.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0002/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0002/">Hiphop Graphic Tee - Discover
+                    Ananas</a>
+                </h3>
+                <h3 class="color">Ketchup</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 350.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale15.jpg">
+                  <img class="ihover" src="../img/sale15.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0003/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0003/">Hiphop Graphic Tee - Discover
+                    Ananas</a>
+                </h3>
+                <h3 class="color">Ermine</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 365.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale16.jpg">
+                  <img class="ihover" src="../img/sale16.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0008/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0008/">Hiphop Graphic Tee - Outline
+                    Typo</a>
+                </h3>
+                <h3 class="color">Ketchup</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 365.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale17.jpg">
+                  <img class="ihover" src="../img/sale17.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0009/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0009/">Hiphop Graphic Tee - Ananas
+                    Symbol</a>
+                </h3>
+                <h3 class="color">Ketchup</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 365.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale18.jpg">
+                  <img class="ihover" src="../img/sale18.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/agt0010/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/agt0010/">Hiphop Graphic Tee - Ananas
+                    Symbol</a>
+                </h3>
+                <h3 class="color">Black</h3>
+                <h3 class="price">200.000 VND <span class="price-real"> 365.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale19.jpg">
+                  <img class="ihover" src="../img/sale19.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/asw0010/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/asw0010/">Ananas Typo Sweatshirt</a>
+                </h3>
+                <h3 class="color">Black</h3>
+                <h3 class="price">250.000 VND <span class="price-real"> 480.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale20.jpg">
+                  <img class="ihover" src="../img/sale20.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/asw0011/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/asw0011/">Ananas Typo Sweatshirt</a></h3>
+                <h3 class="color">White</h3>
+                <h3 class="price">250.000 VND <span class="price-real"> 480.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale21.jpg">
+                  <img class="ihover" src="../img/sale21.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/aho0009/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn btn-prd1-heart addToWishList" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="19801"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/aho0009/">Ananas Typo Logo Hoodie</a></h3>
+                <h3 class="color">Citrus</h3>
+                <h3 class="price">250.000 VND <span class="price-real"> 500.000 VND</span></h3>
+              </div>
+            </div>
+            <div class="thumbnail reveal">
+              <div class="cont-item">
+                <div class="tag-grey">Online Only</div>
+                <a href="https://ananas.vn/product-detail/a61092/">
+                  <img class="inormal" src="../img/imgsale22.jpg">
+                  <img class="ihover" src="../img/sale22.jpg">
+                </a>
+                <a class="buynow" href="https://ananas.vn/product-detail/asw1005/" target="blank">MUA
+                  NGAY</a>
+              </div>
+              <div class="button">
+                <a class="btn-prd1-heart" href="javascript:void(0)" data-liked="false"
+                  data-action="transferCartToWishList" data-idproduct="206126"></a>
+              </div>
+              <div class="caption">
+                <h3 class="type">Online Only</h3>
+                <h3 class="divider"></h3>
+                <h3 class="name"><a href="https://ananas.vn/product-detail/asw1005/">Cactus LL Symbol Sweatshirt</a>
+                </h3>
+                <h3 class="color">Golden Orange</h3>
+                <h3 class="price">250.000 VND <span class="price-real"> 500.000 VND</span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer ">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Store.svg" alt="">
+            <a href="#" class="footer-btn">TÌM CỬA HÀNG</a>
+          </div>
+          <div class="footer-about">
+            <div class="footer-menu">
+              <div class="footer-item">
+                <div class="footer-show">
+                  <h3 class="footer-title">SẢN PHẨM</h3>
+                  <i class='bx bx-chevron-down footer-icon_arrow'></i>
+                </div>
+                <ul class="footer-list">
+                  <li class="footer-list_item">
+                    <a href="../product/product.html">Giày Nam</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="../product/product.html">Giày Nữ</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="../product/product.html">Thời trang & Phụ kiện</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="#">Sale-off</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-item">
+                <div class="footer-show">
+                  <h3 class="footer-title">VỀ CÔNG TY</h3>
+                  <i class='bx bx-chevron-down footer-icon_arrow'></i>
+                </div>
+                <ul class="footer-list">
+                  <li class="footer-list_item">
+                    <a href="">Dứa tuyển dụng</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="">Liên hệ nhượng quyền</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="">Về Ananas</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-item">
+                <div class="footer-show">
+                  <h3 class="footer-title">HỖ TRỢ</h3>
+                  <i class='bx bx-chevron-down footer-icon_arrow'></i>
+                </div>
+
+                <ul class="footer-list">
+                  <li class="footer-list_item">
+                    <a href="">FAQs</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="">Bảo mật thông tin</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="">Chính sách chung</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="">Tra cứu đơn hàng</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-item">
+                <div class="footer-show">
+                  <h3 class="footer-title">LIÊN HỆ</h3>
+                  <i class='bx bx-chevron-down footer-icon_arrow'></i>
+                </div>
+
+                <ul class="footer-list">
+                  <li class="footer-list_item">
+                    <a href="">Email góp ý</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="">Hotline</a>
+                  </li>
+                  <li class="footer-list_item">
+                    <a href="">0963 429 749</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="footer-related">
+              <div class="footer-related_item">
+                <h3 class="footer-title">ANANAS SOCIAL</h3>
+                <ul>
+                  <li>
+                    <a href=""><img src="../logo/footer-icon_facebook.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="../logo/footer-icon_intagram.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="../logo/footer-icon_ytb.svg" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-related_item">
+                <h3 class="footer-title">ĐĂNG KÝ NHẬN MAIL</h3>
+                <form action="" class="footer-form">
+                  <input type="text">
+                  <button type="submit">
+                    <img src="../img/arrow_right.jpg" alt="">
+                  </button>
+                </form>
+              </div>
+              <a href="#" class="footer-btn footer-btn-2">TÌM CỬA HÀNG</a>
+              <div class="footer-related_item">
+                <a href="">
+                  <img class="footer-logo_Anas"
+                    src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Logo_Ananas_Footer.svg" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <a href="">
+                <img src="../img/icon_bocongthuong.png" alt="">
+              </a>
+              <p>Copyright © 2022 Ananas. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <section class="fixed">
+        <div class="fixed-content">
+          <div class="fixed-shop">
+            <span>0</span>
+            <img class="fixed-logo" style="width: 15px; height: 25px;" src="../logo/icon_gio_hang.svg" alt="">
+          </div>
+          <div class="fixed-nav">
+            <ul class="fixed-menu">
+              <li class="fiexd-item">
+                <a href="#">
+                  <img class="fixed-logo" src="../logo/fixed-icon-facebook.svg" alt="">
+                </a>
+              </li>
+              <li class="fiexd-item">
+                <a href="#">
+                  <img class="fixed-logo" src="../logo/fixed-icon-instargram.svg" alt="">
+                </a>
+              </li>
+              <li class="fiexd-item">
+                <a href="#">
+                  <img class="fixed-logo" src="../logo/fixed-icon-ytb.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <script src="../script.js"></script>
+  <script src="../searchJs/searchPage.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.new-info').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        // speed: 1000,
+        prevArrow: `<button type='button' class='slick-prev pull-left'> <i class='bx bx-chevron-left'></i></button>`,
+        nextArrow: `<button type='button' class='slick-next pull-right'><i class='bx bx-chevron-right'></i></button>`
+        // // autoplay: true,
+        // // autoplaySpeed: 2000,
+      });
+    });
+  </script>
+
+</html>

@@ -1,0 +1,32 @@
+/* hover:color */
+.search-item:hover,
+.shop-bonus_name:hover,
+.product-menu_name:hover,
+.bx-chevron-right:hover,
+.footer-list_item > a:hover,
+.info-item_title:hover,
+.offers-item_content > a:hover,
+.new-info > a:hover,
+.new-content > button > i:hover,
+.nav-menu_item > a:hover,
+.header-item > a:hover {
+  transition: 0.2s;
+  color: #f15e2c;
+  cursor: pointer;
+}
+/* #ananas{
+  animation: show 1s linear forwards;
+}
+@keyframes show{
+    0%{
+        transform: translateX(60%);
+        transform: translateY(10%);
+        transform-origin: center;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+} */
+/* bottun */
